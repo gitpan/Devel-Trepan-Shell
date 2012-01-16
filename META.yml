@@ -1,0 +1,42 @@
+---
+abstract: 'Adds shell support via Devel::REPL to Devel::Trepan'
+author:
+  - 'Rocky Bernstein <rocky@cpan.org>'
+build_requires:
+  ExtUtils::PkgConfig: 0
+  String::Diff: 0
+configure_requires:
+  Module::Build: 0.32
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112150'
+license: open_source
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Devel-Trepan-Shell
+provides:
+  Devel::REPL::Plugin::Perl5db:
+    file: lib/Devel/REPL/Plugin/Perl5db.pm
+    version: 0
+  Devel::REPL::Plugin::Trepan:
+    file: lib/Devel/REPL/Plugin/Trepan.pm
+    version: 0
+  Devel::REPL::Plugin::TrepanShell:
+    file: lib/Devel/REPL/Plugin/TrepanShell.pm
+    version: 0
+  Devel::Trepan::CmdProcessor::Command::Shell:
+    file: lib/Devel/Trepan/CmdProcessor/Command/Shell.pm
+    version: 0
+  Devel::Trepan::Shell:
+    file: lib/Devel/Trepan/Shell.pm
+    version: 1.0
+requires:
+  Devel::REPL: 0
+  Devel::Trepan: 0.001009
+  Enbugger: 2.012
+  Test::More: 0.81
+  perl: 5.010
+  version: 0
+resources:
+  license: http://opensource.org/licenses/gpl-license.php
+version: 1.0

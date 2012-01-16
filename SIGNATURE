@@ -1,0 +1,37 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 34369cbf68b6bbb817e7457477f2eb857621d627 Build.PL
+SHA1 be2758656a2b7c4a581b894864d18121b82c26af ChangeLog
+SHA1 7b9903ef071a3438ed1feaf76af8df67143eebb0 Changes
+SHA1 067a2e4b5e1f36609f5aa66c5c12179cba00c36b GNUmakefile
+SHA1 073fe2033cfbfe5a69bd9299ac5c6e1b7cea66e5 MANIFEST
+SHA1 9c5e73f5401bbcfef4df196b9b0a2acf35b5c9e0 META.json
+SHA1 8e40b45852a8b7269fe748cd23ff2699d5b051e8 META.yml
+SHA1 1e6b0af581ddc16c303919230c2773d262d4f49b Makefile.PL
+SHA1 077ced7d690b3b0f5dbca5e979691c281ae3b2ca README.md
+SHA1 512f0d795470ab8816b6dc16ed52b6cbd8323d82 lib/Devel/REPL/Plugin/Perl5db.pm
+SHA1 aa9b5c957dfa7c2014166df82931115583a4c6f8 lib/Devel/REPL/Plugin/Trepan.pm
+SHA1 0f0412a66f72cd5593ed94a362d221abd9a7ec49 lib/Devel/REPL/Plugin/TrepanShell.pm
+SHA1 791b4fd108ce86ede27bcf36ac8b31abe16e3d08 lib/Devel/Trepan/CmdProcessor/Command/Shell.pm
+SHA1 074101cefc923258d5798a5e7cd3dd04cae12d00 lib/Devel/Trepan/Shell.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAk8UR6IACgkQGo3lAIJ17CHUfACeKrJXFTVX7egMy2mNPlXuqJji
+F+wAn1IMcsAJxC0Wt01MJYNcbHgQxrzJ
+=tCx+
+-----END PGP SIGNATURE-----
