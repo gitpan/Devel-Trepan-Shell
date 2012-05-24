@@ -5,11 +5,13 @@ lib/Devel/REPL/Plugin/Trepan.pm
 lib/Devel/REPL/Plugin/TrepanShell.pm
 lib/Devel/Trepan/CmdProcessor/Command/Shell.pm
 lib/Devel/Trepan/Shell.pm
+t/00load.t
+t/00test-pod.t
 MANIFEST			This list of files
 ChangeLog
 Changes
+README
 README.md
 Makefile.PL
 META.yml
 META.json
-SIGNATURE    Added here by Module::Build
